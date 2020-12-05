@@ -36,7 +36,7 @@ class rolesystem(utils.Cog):
         guild = self.bot.get_guild(payload.guild_id)
         role = guild.get_role(rows[0]["role_id"])
         member = guild.get_member(payload.user_id)
-        await memeber.add_roles(role)
+        await member.add_roles(role)
         
 
 def setup(bot):
