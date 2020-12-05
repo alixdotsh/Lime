@@ -30,3 +30,10 @@ CREATE TABLE IF NOT EXISTS modlogs(
     guild_id BIGINT PRIMARY KEY,
     modlog_channel BIGINT
 );
+
+CREATE TABLE IF NOT EXISTS roles(
+    message_id BIGINT,
+    emoji VARCHAR(100),
+    role_id BIGINT,
+    PRIMARY KEY (message_id, emoji)
+);
