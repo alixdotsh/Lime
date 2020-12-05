@@ -43,4 +43,4 @@ class Modlogs(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(Modlogs())
+    bot.add_cog(Modlogs(bot))

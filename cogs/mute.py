@@ -24,4 +24,4 @@ class Mute(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(Mute())
+    bot.add_cog(Mute(bot))

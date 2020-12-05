@@ -34,4 +34,4 @@ class AccountInformation(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(AccountInformation())
+    bot.add_cog(AccountInformation(bot))

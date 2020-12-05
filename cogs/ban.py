@@ -15,4 +15,4 @@ class Ban(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(Ban())
+    bot.add_cog(Ban(bot))

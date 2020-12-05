@@ -14,4 +14,4 @@ class Kick(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(Kick())
+    bot.add_cog(Kick(bot))

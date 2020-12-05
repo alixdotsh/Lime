@@ -22,4 +22,4 @@ class SelectChannel(utils.Cog):
 
 
 def setup(bot):
-    bot.add_cog(SelectChannel())
+    bot.add_cog(SelectChannel(bot))
