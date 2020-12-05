@@ -6,7 +6,7 @@ class PingCommand(utils.Cog):
     @utils.command()
     async def ping(self, ctx:utils.Context):
         """
-        A sexy lil ping command for the bot.
+        You ping my bot and it responds uwo
         """
 
         await ctx.send("I'm here!")

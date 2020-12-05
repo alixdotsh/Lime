@@ -11,6 +11,9 @@ class AccountInformation(utils.Cog):
     # running the command
     @commands.command()
     async def accountinfo(self, ctx, user: discord.Member=None):
+        """
+        Gives basic account information of requested user
+        """
         if user is None:
             user = ctx.author
 

@@ -11,6 +11,9 @@ class Mute(utils.Cog):
     @commands.bot_has_permissions(manage_roles=True)
     @commands.has_permissions(kick_members=True)
     async def mute(self, ctx, user: discord.Member, time:int, *, reason: str):
+        """
+        Mutes a user temporarily
+        """
         muterole = discord.utils.get(ctx.guild.roles, name="Muted")
         if muterole is None:
             muterole = await ctx.guild.create_role(name="Muted")
