@@ -1,1 +1,1 @@
-python3 -m voxelbotutils .
+python -m voxelbotutils .
