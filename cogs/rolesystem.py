@@ -26,5 +26,8 @@ class rolesystem(utils.Cog):
             await db('''INSERT INTO roles (message_id, emoji, role_id) VALUES ($1, $2, $3)on conflict(message_id, emoji)do update set role_id = $3''', 
             my_message.id, emote, role.id)
 
+def setup(bot):
+    bot.add_cog(rolesystem(bot))
+
 
         
