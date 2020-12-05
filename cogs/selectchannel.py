@@ -17,7 +17,7 @@ class SelectChannel(utils.Cog):
 
         # Connecting to the database uwu
         async with self.bot.database()as db:
-        await db('''INSERT INTO modlogs (guild_id, modlog_channel) VALUES ($1, $2)on conflict(guild_id)do update set modlog_channel = $2''', channel.guild.id,
+            await db('''INSERT INTO modlogs (guild_id, modlog_channel) VALUES ($1, $2)on conflict(guild_id)do update set modlog_channel = $2''', channel.guild.id,
                          channel.id)
 
         await ctx.send(f" I have connected the channel {channel.mention} for sending modlogs")
