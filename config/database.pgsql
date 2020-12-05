@@ -25,3 +25,8 @@ CREATE TABLE IF NOT EXISTS channel_list(
     value VARCHAR(50),
     PRIMARY KEY (guild_id, channel_id, key)
 );
+
+CREATE TABLE IF NOT EXISTS modlogs(
+    guild_id BIGINT PRIMARY KEY,
+    modlog_channel BIGINT
+);
