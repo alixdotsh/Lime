@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import voxelbotutils as utils
 
-class Kick(commands.Cog):
+class Kick(utils.Cog):
 
     @commands.command()
     @commands.bot_has_permissions(kick_members=True)

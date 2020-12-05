@@ -4,7 +4,7 @@ import voxelbotutils as utils
 import asyncpg
 
 
-class Modlogs(commands.Cog):
+class Modlogs(utils.Cog):
 
     @commands.Cog.listener()
     async def on_modlog(self, user, moderator, command, reason):

@@ -5,7 +5,7 @@ import voxelbotutils as utils
 from discord.ext import commands
 
 
-class Mute(commands.Cog):
+class Mute(utils.Cog):
 
     @commands.command()
     @commands.bot_has_permissions(manage_roles=True)

@@ -6,7 +6,7 @@ import voxelbotutils as utils
 import humanize
 
 
-class AccountInformation(commands.Cog):
+class AccountInformation(utils.Cog):
 
     # running the command
     @commands.command()

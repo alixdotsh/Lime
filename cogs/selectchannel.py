@@ -4,7 +4,7 @@ import voxelbotutils as utils
 import asyncpg
 
 
-class SelectChannel(commands.Cog):
+class SelectChannel(utils.Cog):
 
     # running the command
     @commands.command()

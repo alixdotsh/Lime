@@ -3,7 +3,7 @@ from discord.ext import commands
 import voxelbotutils as utils
 
 
-class Ban(commands.Cog):
+class Ban(utils.Cog):
 
     @commands.command()
     @commands.bot_has_permissions(ban_members=True)
