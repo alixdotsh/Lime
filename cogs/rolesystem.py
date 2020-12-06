@@ -9,6 +9,9 @@ class rolesystem(utils.Cog):
     @commands.command()
     @commands.has_permissions(administrator=True)
     async def addrole(self, ctx, emote:str, *, rolename:str):
+        """
+        Add reaction roles for people to grab
+        """
 
         role = discord.utils.get(ctx.guild.roles, name=rolename)
         if role is None:
