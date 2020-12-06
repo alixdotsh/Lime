@@ -10,7 +10,7 @@ class SelectChannel(utils.Cog):
     @commands.command()
     @commands.bot_has_permissions(manage_channels=True)
     @commands.has_permissions(manage_channels=True)
-    async def setchannel_modlogs(self, ctx, channel: discord.TextChannel):
+    async def setchannel(self, ctx, channel: discord.TextChannel):
         """
         Set the channel for where modlogs go
         """
