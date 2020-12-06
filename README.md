@@ -12,3 +12,6 @@ VoxelBotUtils is an API that basically helps with the core components of making 
 
 # Invite Link
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
+
+# Usability
+You are allowed to use any of the code from my bot IF it is for private use
