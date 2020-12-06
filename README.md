@@ -14,4 +14,4 @@ VoxelBotUtils is an API that basically helps with the core components of making 
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
 
 # Usability
-You are allowed to use any of the code from my bot IF I am credited and you use the same LICENSE as I do, thats really it
+You are allowed to use any of the code from my bot IF I am credited and you use the same LICENSE as I do
