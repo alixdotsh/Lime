@@ -26,7 +26,7 @@ class EmojiCommands(utils.Cog):
     @commands.bot_has_permissions(manage_emojis=True)
     @commands.has_guild_permissions(manage_emojis=True)
     @commands.guild_only()
-    async def addemoji(self, ctx:utils.Context, emoji:typing.Union[discord.PartialEmoji, int, ImageUrl], name:str=None, animated:bool=False):
+    async def addemote(self, ctx:utils.Context, emoji:typing.Union[discord.PartialEmoji, int, ImageUrl], name:str=None, animated:bool=False):
         # This will be copying the emoji given and uploading it to specified server
 
         # If an emote ID is given
