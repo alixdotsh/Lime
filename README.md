@@ -10,12 +10,19 @@ Issues with the bot can go into the issues page. Resolving issues and/or suggest
 
 # Commands List (Updated 1/25/2021)
 l.ban (Bans a user)
+
 l.kick (kicks a user)
+
 l.mute (temp mutes a user)
+
 l.accountinfo (gives account information of a user)
+
 l.setchannel (sets the channel for where modlogs go)
+
 l.ping (pings the bot, usually used to check the response time of lime)
+
 l.addrole (used as l.addrole <emote> <role name>, creates a reaction role)
+ 
 l.addemote (used as l.addemote <url> <emote name>, this will create an emote and upload it to the emote list in your server)
 
 # Invite Link
