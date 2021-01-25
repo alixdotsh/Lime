@@ -21,9 +21,9 @@ l.setchannel (sets the channel for where modlogs go)
 
 l.ping (pings the bot, usually used to check the response time of lime)
 
-l.addrole (used as l.addrole <emote> <role name>, creates a reaction role)
+l.addrole (used as l.addrole :emote: :role name:, creates a reaction role)
  
-l.addemote (used as l.addemote <url> <emote name>, this will create an emote and upload it to the emote list in your server)
+l.addemote (used as l.addemote :url: :emote name:, this will create an emote and upload it to the emote list in your server)
 
 # Invite Link
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
