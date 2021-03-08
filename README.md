@@ -8,8 +8,22 @@ Commands range from a lot of things, its basically whatever I decide to do, for 
 Any sort of contribution is very appreciative from me, it means a lot to me, even if its a small contribution.
 Issues with the bot can go into the issues page. Resolving issues and/or suggesting code changes can go into pull requests. Please leave your suggestion with the exact code.
 
-# What is VoxelBotUtils?
-VoxelBotUtils is an API that basically helps with the core components of making the bot and makes things much more simplified to do. It is written by my dear friend Kae#0004
+# Commands List (Updated 1/25/2021)
+l.ban (Bans a user)
+
+l.kick (kicks a user)
+
+l.mute (temp mutes a user)
+
+l.accountinfo (gives account information of a user)
+
+l.setchannel (sets the channel for where modlogs go)
+
+l.ping (pings the bot, usually used to check the response time of lime)
+
+l.addrole (used as l.addrole :emote: :role name:, creates a reaction role)
+ 
+l.addemote (used as l.addemote :url: :emote name:, this will create an emote and upload it to the emote list in your server)
 
 # Invite Link
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
