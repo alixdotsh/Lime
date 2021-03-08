@@ -22,7 +22,7 @@ class TimezoneInfo(utils.Cog):
             return await ctx.send_help(ctx.command)
 
     @timezone.command(name="set")
-    async def timezone(self, ctx: utils.Context, *, offset: str = None):
+    async def settime(self, ctx: utils.Context, *, offset: str = None):
         """
         Sets and stores your UTC offset into the bot.
         """
