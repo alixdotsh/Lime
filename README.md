@@ -31,8 +31,6 @@ l.timezone (lets you set your timezone and find the timezone of others that set 
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
 
 # Support Server
-The support server is mainly a public community server, but will also be a place for bot support.
-The server as of 12/07/2020 is still WIP.
 https://discord.gg/qdPWsqrhjw
 
 # Usability Permissions
