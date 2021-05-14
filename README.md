@@ -27,6 +27,8 @@ l.addemote (used as l.addemote :url: :emote name:, this will create an emote and
 
 l.timezone (lets you set your timezone and find the timezone of others that set it aswell)
 
+l.reminders/l.reminder set (lets you add a reminder for the bot to ping you when the time is up. for example, l.reminder set 1m do my homework)
+
 # Invite Link
 https://discord.com/oauth2/authorize?client_id=784536198211305483&scope=bot&permissions=8
 
