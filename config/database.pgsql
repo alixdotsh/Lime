@@ -38,3 +38,12 @@ CREATE TABLE IF NOT EXISTS roles(
     role_id BIGINT,
     PRIMARY KEY (message_id, emoji)
 );
+
+CREATE TABLE IF NOT EXISTS reminders(
+    reminder_id VARCHAR(5) PRIMARY KEY,
+    guild_id BIGINT,
+    channel_id BIGINT,
+    timestamp TIMESTAMP,
+    user_id BIGINT,
+    message TEXT
+);
