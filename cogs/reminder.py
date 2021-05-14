@@ -6,7 +6,6 @@ import discord
 from discord.ext import commands, tasks
 import voxelbotutils as utils
 
-# Credit to https://github.com/Voxel-Fox-Ltd/Apple.Py/blob/master/cogs/reminder_commands.py for the original command
 
 def create_id(n:int=5):
     """
@@ -15,7 +14,9 @@ def create_id(n:int=5):
 
     return ''.join(random.choices(string.digits, k=n))
 
-
+'''
+Credit https://github.com/Voxel-Fox-Ltd/Apple.Py/blob/master/cogs/reminder_commands.py 
+'''
 class ReminderCommands(utils.Cog):
 
     def __init__(self, bot):
